@@ -24,9 +24,9 @@ def main():
     for key, value in metadata.items():
         print(f"{key}: {value}")
 
-    # # Visualize Data
-    # visualizer = ParquetVisualizer(df_read)
-    # visualizer.plot_bar('Name', 'Age', 'Employee Age Distribution')
+    # Visualize Data
+    visualizer = ParquetVisualizer(df_read)
+    visualizer.plot_bar('Name', 'Age', 'Employee Age Distribution')
 
     # Initialize DuckDB explorer
     explorer = DuckDbExplorer(parquet_file_path)
