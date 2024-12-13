@@ -1,5 +1,8 @@
 # Parquet Explorer
 
+<img width="578" alt="image" src="https://github.com/user-attachments/assets/a2445f82-6daf-428b-9943-8d3c2476f629" />
+
+
 **Parquet Explorer** is a Python-based tool designed for parsing, reading, and visualizing Parquet files. The entire workflow is orchestrated through the `main.py` script, which provides a unified interface for creating, reading, and analyzing Parquet datasets.
 
 ---
